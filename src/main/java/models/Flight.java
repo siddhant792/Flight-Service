@@ -7,10 +7,12 @@ import lombok.Builder;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Setter
 @Getter
 @Builder
+@ToString
 @AllArgsConstructor
 public class Flight {
 	private String flightNumber;
